@@ -3,7 +3,7 @@
 A Nextcloud commandline client based on ubuntu:jammy. The nextcloudcmd client performs single sync run and then exits. For scheduled syncing you have to configure a cronjob on your host.
 
 
-## Start container
+## start container
     docker run -it --rm \
 
         --name nextcloudcmd \
@@ -15,7 +15,7 @@ A Nextcloud commandline client based on ubuntu:jammy. The nextcloudcmd client pe
         nikreitmann/nextcloudcmd:latest
 
 
-## Build Container
+## build image
     git clone https://github.com/nikreitmann/docker_nextcloudcmd.git
     cd docker_nextcloudcmd/
     docker build -t nextcloudcmd:latest .
