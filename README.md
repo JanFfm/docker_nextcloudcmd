@@ -1,6 +1,10 @@
 # docker_nextcloudcmd
 
-A Nextcloud commandline client based on ubuntu:jammy. The nextcloudcmd client performs single sync run and then exits. For scheduled syncing you have to configure a cronjob on your host.
+A Nextcloud commandline client based on ubuntu:jammy. 
+The nextcloudcmd client performs single sync run and then exits. 
+
+I suggest creating a bash script to start the container. 
+The bash script can then be started via cronjob.
 
 
 ## start container
