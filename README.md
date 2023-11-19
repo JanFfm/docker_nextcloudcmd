@@ -22,4 +22,4 @@ The bash script can then be started via cronjob. (example -> run_docker_nextclou
 ## build image
     git clone https://github.com/nikreitmann/docker_nextcloudcmd.git
     cd docker_nextcloudcmd/
-    docker build -t nextcloudcmd:latest .
+    docker build -t nextcloudcmd .
