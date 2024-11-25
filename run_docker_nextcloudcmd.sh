@@ -6,5 +6,6 @@ docker run -i --rm \
         -e NEXTCLOUD_PASS=your-password-here \
         -e NEXTCLOUD_URL=your-nextcloud-url-here \
         -e NEXCTLOUD_SYNC_RETRIES=4 \
+        -e PATH=your-path \ 
         -v /your/path/to/sync/here:/media/nextclouddata
         nikreitmann/nextcloudcmd:latest
