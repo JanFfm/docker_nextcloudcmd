@@ -19,7 +19,7 @@ ENV NEXTCLOUD_USER=user
 ENV NEXTCLOUD_PASS=password
 ENV NEXTCLOUD_URL=
 ENV NEXCTLOUD_SYNC_RETRIES=4
-ENV PATH=path
+ENV PATHES=path
 
 # start runscript
 CMD ["/usr/bin/runscript.sh"]
