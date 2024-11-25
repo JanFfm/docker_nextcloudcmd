@@ -2,8 +2,10 @@
 
 cd /usr/bin
 
-nextcloudcmd \
-        --max-sync-retries $NEXCTLOUD_SYNC_RETRIES \
-        --non-interactive \
-        /media/nextclouddata \
-        https://$NEXTCLOUD_USER:$NEXTCLOUD_PASS@$NEXTCLOUD_URL
+for path in $PATHES
+
+do
+        echo "starte $path"
+        nextcloudcmd -u $USER-p $PASSWD --path $path/   $SOURCE $DESTINATION 
+done
+       
