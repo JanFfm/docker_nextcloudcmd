@@ -6,6 +6,6 @@ for path in $PATHES
 
 do
         echo "starte $path"
-        nextcloudcmd -u $USER-p $PASSWD --path $path/   $SOURCE $DESTINATION 
+        nextcloudcmd -u $NEXTCLOUD_USER -p $NEXTCLOUD_PASS --path $path/ $SOURCE_DIR $NEXTCLOUD_URL 
 done
        
